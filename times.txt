@@ -1,0 +1,66 @@
+# USYD Class Notation:
+# [Day][Time][Class]
+# Days:
+#  M: Monday
+#  T: Tuesday
+#  W: Wednesday
+#  R: Thursday
+#  F: Friday
+# Times are always padded to two digits, i.e. '09' not '9'
+# Example: R09A = Class A, Thursday 9:00pm
+
+# Unit Format:
+# [Name]
+#     [hours] hour(s)
+#     [class] [class] [class]
+#     [class]
+#     [class]+[class]
+# Newlines are treated as spaces. To signify that an option has multiple times associated with it,
+# put the times with '+'s inbetween.
+# You can use tabs or spaces, or even both! Don't do this or I will hate you!
+
+# Example:
+# ELEC1601 Lab
+#     3 hours
+#     M09A M12A T15A T18A W09A W11A R09A F09A
+
+ELEC1601 Lab
+	3 hours
+	M09A M12A T15A T18A W09A W11A R09A F09A
+
+ELEC1601 Tut
+	2 hours
+	M15A T09A W09A W14A W16A R09A R11A R13A M11A T11A
+
+INFO1905 Prac
+	3 hours
+	F08A F13A R10A
+
+INFO2315 Prac
+	1 hour
+	R13A R14A R14B R15A R15B R16A R16B F10A F11A F11B F12A
+
+MATH1004 Lec
+	1 hour
+	R13A+W13A
+	R14B+W15B
+
+
+MATH1004 Tut
+	1 hour
+	M09A M09B M10A M11A M12A M14A M15A M16A M16B T09A T09B T10A
+	T12A T13A T13B T14A T16A M13A T13C M14B T14B M16C T16B
+
+MATH1005 Lec
+	1 hour
+	M08A+T08A M11B+T11B M13C+T13C M13D+T10D M09E+T12E
+
+MATH1005 Tut
+	1 hour
+	T09A T10A T10B T11A T15B T15A T16B T16A T17B T17A W08A W08B
+	W09A W09B W10A W10B W11A W11B W11C W12A W12B W13A W13B W14A
+	W14B W14C W15A W16A W16B W16C W17B W17A R08A R08B R09A R09B
+	R10A R10B R10C R11B R11A R12A R12B R12C R13A R13B R13C R14A
+	R14B R15A R16A R16B R17A F09A F09B F10A F11A F12A F12B F12C
+	F13A F13B F13C F14A F14B F15A F15B F16A F16C M09A M10A M11A
+	M13A M14A M16A
